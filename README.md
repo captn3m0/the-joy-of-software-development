@@ -1,6 +1,12 @@
-Welcome to The Joy of Software Development.
+#The Joy of Software Development.
+
+Welcome to [The Joy of Software Development](http://josd.captnemo.in)
 
 This is a book for Software Developers who want to expand their knowledge. Encompassing various languages, tools, frameworks and technologies, it aims to improve your understanding of Software Development.
+
+This work is licenced under [Creative Commons Attribution-ShareAlike 4.0 International](LICENSE.md) license.
+
+---
 
 Software Development is the craft of making good software. As a software developer, the easiest way to become better at your craft is to re-invent it. Our industry is highly volatile, and the next big thing is always round the corner. This includes various tools and technologies that we, as developers, use to make software.
 
