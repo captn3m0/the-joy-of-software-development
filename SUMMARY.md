@@ -1,8 +1,8 @@
 # Summary
 
-* [Introduction](README.md)
+* [Preface](README.md)
 * [About the author](author.md)
-* [Introduction](README.md)
+* [Introduction](Introduction.md)
 * [Command Line](cli.md)
 * [Installing Software](setup.md)
 * [Test Driven Development](tdd.md)
