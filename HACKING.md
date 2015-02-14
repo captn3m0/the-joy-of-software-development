@@ -6,6 +6,7 @@ This is a short note on the development of the book. This file is not part of th
 - The canonical URL for the book is <https://josd.captnemo.in>
 - The book is licenced under [CC-by-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) License
 - You can subscribe for updates on the book website. All newsletters will be part of this repository as well.
+- A git hook (prepare-commit-message) adds the current wordcount to every commit message
 
 ##TODO List
 - Create a GLOSSARY
