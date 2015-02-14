@@ -1,0 +1,48 @@
+{
+    "title": "The Joy of Software Development",
+
+    "plugins": ["ga", "disqus", "anchors"],
+
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "night",
+            "family": "sans",
+            "size": 3
+        },
+        "ga": {
+            "token": "UA-5922129-13"
+        },
+        "disqus": {
+            "shortName": "josd"
+        }
+    },
+
+    "variables": {},
+
+    "links": {
+        "sidebar": {
+        },
+
+        "sharing": {
+            "google": null,
+            "facebook": null,
+            "twitter": null
+        }
+    },
+
+
+    "pdf": {
+        "pageNumbers": true,
+
+        "fontSize": 13,
+        "paperSize": "a4",
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        },
+        "headerTemplate": null,
+        "footerTemplate": null
+    }
+}

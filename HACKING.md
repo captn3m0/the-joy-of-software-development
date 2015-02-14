@@ -10,10 +10,6 @@ This is a short note on the development of the book. This file is not part of th
 
 ##TODO List
 - Create a GLOSSARY
-- Add plugins for extra features:
-    + Google Analytics
-    + Disqus
-    + Heading anchors
 - Setup your own build server, perhaps?
     + wercker
 - Travis for testing valid markdown?
