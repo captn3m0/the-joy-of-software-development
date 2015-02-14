@@ -36,6 +36,6 @@ Yes, you won't become a specialist in all of these things. And thats fine. The e
 
 As I'm primarily a web developer, I am not exactly unbiased in choosing the contents of this book. However, I'm aware of this bias and will actively fight against it and try my very best in making this book helpful to _all software developers_.
 
-As a final note, this book will not only be covering tools, but also techniques such as Test Driven Development, Agile Development, Iterative Programming as well. 
+As a final note, this book will not only be covering tools, but also techniques such as Test Driven Development, Agile, Iterative Development as well.
 
 **DISCLAIMER about Windows**: While this book will discuss a few windows related concepts, the majority of the code and examples in this book were written with a Unix-ish setup in mind. Many of the concepts will make no sense to a Windows-only developer, so proceed with caution.
