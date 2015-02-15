@@ -14,4 +14,4 @@ The book can be read online or downloaded in pdf, mobi, epub formats as well. If
 
 If you wish to help me write this book, you can donate on [Gratipay](http://gratipay.com/captn3m0).
 
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/captn3m0/)
+[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/captn3m0/) [![Read Online](read.png)](https://josd.captnemo.in/content/)
