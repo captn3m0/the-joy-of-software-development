@@ -2,6 +2,7 @@
 
 * [Preface](README.md)
 * [About the author](author.md)
+* [A note for HN Readers](hn.md)
 * [Introduction](Introduction.md)
 * [Command Line](cli.md)
 * [Installing Software](setup.md)
