@@ -12,6 +12,7 @@
 * [Editors and IDEs](editors.md)
 * [Build Tools](build.md)
 * [Debugging](debug.md)
+* [Software Security](security.md)
 * [Queues](queue.md)
 * [Async Programming](async.md)
 * [Cross Platform Development](cross-os.md)
