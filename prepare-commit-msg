@@ -1,4 +1,4 @@
 #!/bin/sh
 # Copy it to .git/hooks/ directory after cloning
-WORDCOUNT=`cat *.md | wc -w`
+WORDCOUNT=$(cat `git ls-files *.md`|wc -w)
 echo "\n\n - $WORDCOUNT words" > "$1"
