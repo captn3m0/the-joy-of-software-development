@@ -38,4 +38,39 @@ While its true that not all users are going to attack your system., it only take
 
 This can be understood especially well if you have ever worked on a multiplayer game. Game Developers always have the choice of making dumb clients where all computations are done on servers, or intelligent clients where the client can compute renders by itself based on its own information and that provided by the server.
 
-The trouble is to what degree can the game server trust the client. 
+The trouble is to what degree can the game server trust the client. A hybrid alternative is quite common, where the server makes some sanity checks on whatever data the client provides.
+
+Similarly, in any other piece of software, it is essential that all _user input data_ is properly sanitized and considered as _tainted_. The majority of wordpress exploits have been because of untrusted user input being used directly somewhere.
+
+## How to get started
+
+Software Security (commonly known as infosec or netsec) is a vast and complex field. Getting started with software security (becoming a hacker) involves a certain mindset. You must be thinking of how the original piece of code was written and what vulnerabilities it might hold without (often) access to the code itself.
+
+A few good starting points:
+
+### Participate in CTF Contests
+
+Capture The Flag (or CTF) contests are the elite playgrounds of hackers around the world. Various organizations hold CTF contests of varying difficulty. 
+
+TODO: Write some more
+
+### Get certification
+
+This is a somewhat controversial topic, but there are a few certification courses that are of actual value (in both credibility and knowledge gained) in the industry. A few such courses are:
+
+TODO: Add list
+
+### Keep up with the exploits
+
+Hundreds of exploits and vulnerabilities are announced every week. These include vulnerabilies in softwares that you use daily: Windows, Twitter, Facebook, Chrome, Firefox and almost everything else.
+
+Platforms such has hackerone and bugcrowd have made reporting security bugs very easy these days. This has also made them a very good medium for accessing recently announced reports. Follow these, and other mediums and stay updated on the new vulnerabilities that are announced daily.
+
+### Learn the tools
+
+Doing penetration testing, or participating in CTFs will make you understand the importance of toolkits in infosec. Tools are usually classified as offense or defense type, depending on their usage.
+
+An automated tool can often exploit a vulnerability far more easily and faster than you can do it manually, if at all.  Get comfortable with multiple programming languages, especially python.
+
+Note that just knowing how to use the tools is not enough. That will make you a script-kiddie (a term used to denote wannabe hackers who only know how to hack using certain tools). Understanding the concepts behind it, and having the ability to write your own exploits is what makes you a real hacker.
+
