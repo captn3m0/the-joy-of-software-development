@@ -1,5 +1,7 @@
 #Introduction
 
+**DISCLAIMER**: If you are just getting started with programming, do not read this book. This is not a book for beginner programmers. This is a book for intermediate and beginner software developers. This will not teach you how to program in a particular language, but deal with the lots of intricacies of making real software.
+
 Software Development is the craft of making good software. As a software developer, the easiest way to become better at your craft is to re-invent it. Our industry is highly volatile, and the next big thing is always round the corner. This includes various tools and technologies that we, as developers, use to make software.
 
 Good software developers are specialists in their own fields. But the best developers are versatile, who can switch between languages, frameworks and tools. They realize that good software is all about making the right decisions, and to make those decisions, you need to have an understanding of multiple fields.
@@ -28,9 +30,9 @@ Oh you don't do cross platform development, I hear you say. As a web developer, 
 - A CSS framework perhaps, such as bootstrap or pure
 - A deployment tool, such as FTP, Capistrano along with hosting services like Heroku and Nodejitsu
 
-Yes, you don't _necessarily_ have to learn all of these things. You could probably pick and choose a stack and then specialize in it. But, if there is one thing that sticks in our industry: _it is change_. 
+Yes, you don't _necessarily_ have to learn all of these things. You could probably pick and choose a stack and then specialize in it. But, if there is one thing that sticks in our industry: _it is change_.
 
-What you are using today might not even be relevant 5 years from now. Unless you wanna be a COBOL developer (who arguably are among the highest paid) working on legacy systems 10 years down the line, you need to become acquainted with these things.
+What you are using today might not even be relevant 5 years from now. Unless you are fine being a COBOL developer (who arguably are among the highest paid) working on legacy systems 10 years down the line, you need to become acquainted with these things.
 
 Yes, you won't become a specialist in all of these things. And thats fine. The end goal here is not to become awesome at everything. It is to stay awesome at a few things, and _be aware_ of many other things.
 

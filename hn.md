@@ -1,6 +1,6 @@
 Fellow members of the HN community, welcome.
 
-If you are an active HN reader, this book might not be for you. You are probably aware of most of the things that I talk about in this book, and might even know them more deeply than I can ever reach.
+If you are an active HN reader, this book might not be for you. You are probably aware of most of the things that I talk about in this book, and might even know them more deeply than I will ever do.
 
 This book might appear trivial to you. You might feel that it skips over essential topics (file an issue, and I'll consider). You might think I don't know enough of the things I'm writing about.
 
