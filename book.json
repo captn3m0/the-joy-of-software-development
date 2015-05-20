@@ -1,8 +1,10 @@
 {
     "title": "The Joy of Software Development",
-
-    "plugins": ["ga", "disqus", "anchors"],
-
+    "plugins": [
+        "ga",
+        "disqus",
+        "anchors"
+    ],
     "pluginsConfig": {
         "fontSettings": {
             "theme": "night",
@@ -16,24 +18,17 @@
             "shortName": "josd"
         }
     },
-
     "variables": {},
-
     "links": {
-        "sidebar": {
-        },
-
+        "sidebar": {},
         "sharing": {
             "google": null,
             "facebook": null,
             "twitter": null
         }
     },
-
-
     "pdf": {
         "pageNumbers": true,
-
         "fontSize": 13,
         "paperSize": "a4",
         "margin": {
