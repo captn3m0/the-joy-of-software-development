@@ -9,6 +9,6 @@ There are several ways you can contribute to the development of the book. These 
 
 I will usually be the final authority on what goes into the book. If you are filing a PR, make sure that the markdown is valid. Don't worry about building the book for now.
 
-As a final note, you can also contribute by donating via ]Gratipay](https://gratipay.com/captn3m0/).
+As a final note, you can also contribute by donating via ]Gratipay](https://gratipay.com/josd/).
 
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/captn3m0/)
+[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/josd/)
