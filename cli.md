@@ -30,7 +30,7 @@ All lines that begin with `$` are a command. For eg, the command `g++ ./otp.cpp 
 
 The next command makes use of pipes to pass input the `sha256` program. The last two commands use the `curl` utility to make HTTP requests to different URLs.
 
-All of this was done on the command line, and that is the power of the command-line: It can do everything that you can do using other tools, but faster and more effeciently.
+All of this was done on the command line, and that is its power: It can do everything that you can do using other tools, but faster and more efficiently.
 
 For eg, to make the same POST request would require you to either do the following:
 
