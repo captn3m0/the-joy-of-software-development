@@ -4,7 +4,7 @@
 
 Software Development is the craft of making good software. As a software developer, the easiest way to become better at your craft is to re-invent it. Our industry is highly volatile, and the next big thing is always round the corner. This includes various tools and technologies that we, as developers, use to make software.
 
-Good software developers are specialists in their own fields. But the best developers are versatile, who can switch between languages, frameworks and tools. They realize that good software is all about making the right decisions, and to make those decisions, you need to have an understanding of multiple fields.
+Good software developers are specialists in their own fields. But the best developers are versatile, who can switch between languages, frameworks and tools. Good software is all about making the right decisions, and to make those decisions, you need to have an understanding of multiple fields.
 
 Lets take an example. Say, you were working on a bit-torrent client. Here is a small list of things that you'd need to learn/understand in order to take a stab at the problem:
 
