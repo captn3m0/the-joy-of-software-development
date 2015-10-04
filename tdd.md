@@ -75,7 +75,7 @@ Writing tests has far more benefits than just regression testing. Among these in
 
 Its difficult to get started with testing for the first time. These are some of the questions I have heard over time:
 
-- Should I test all of my code?
+- Should I test all my code?
 - Should I be testing my dependencies?
 - If there are nested methods (X calls Y calls Z), how should I write their tests? In which order?
 - How much time does it take to write tests?
