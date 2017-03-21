@@ -26,11 +26,15 @@ After some time, another developer wanted a method to extract the ending portion
 
 So, earlier we had:
 
-```basename('/etc/passwd') -> passwd```
+```js
+basename('/etc/passwd') -> passwd
+```
 
 And now, with the second code commit, it is being used for:
 
-```basename('http://twitter.com/elonmusk') -> elonmusk```
+```js
+basename('http://twitter.com/elonmusk') -> elonmusk
+```
 
 Now, as often happens, the HTTP url was given as user input in the website. However, users were often inputting the twitter usernames instead of the twitter profile links, which broke the function.
 
@@ -55,7 +59,7 @@ Writing tests saves you from this scenario, by essentially what is called "Regre
 
 In this case, the test could have been as simple as the following:
 
-```
+```js
 if(basename('/etc/passwd')!=='passwd')
   throw new Error('Test failed')
 ```
@@ -69,7 +73,6 @@ Writing tests has far more benefits than just regression testing. Among these in
 - Modular code: Writing code that can be tested forces you to break your code into smaller pieces.
 - Identifying bugs: Tests can help you narrow down the scope of a bug very easily.
 - Reducing manual testing: Instead of the write-compile-refresh cycle, you can just run your tests (or have them run automatically on saving). You should understand that you were already testing your code. It was just a slower and more cumbersome process. Automated testing is how to make it better.
-
 
 ## Testing Best Practices
 

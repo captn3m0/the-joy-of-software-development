@@ -40,4 +40,4 @@ As I'm primarily a web developer, I am not exactly unbiased in choosing the cont
 
 As a final note, this book will not only be covering tools, but also techniques such as Test Driven Development, Agile, Iterative Development as well.
 
-**DISCLAIMER about Windows**: While this book will discuss a few windows related concepts, the majority of the code and examples in this book were written with a Unix-ish setup in mind. Many of the concepts will make no sense to a Windows-only developer, so proceed with caution.
+**DISCLAIMER about Windows**: While this book will discuss a few windows related concepts, the majority of the code and examples in this book were written with a Unix-ish setup in mind. Many of the concepts will not carry over cleanly to a Windows setup, so proceed with caution.

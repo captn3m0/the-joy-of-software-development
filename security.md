@@ -1,4 +1,4 @@
-#Software Security
+# Software Security
 
 Irrespective of what field you are working in, its always nice to have an understanding of basic computer security. A lot of it is dependent on the nature of work you are doing; for instance securing a web server is way different than securing the source code for a mobile app. I'll cover most fundamental principles and some specific advice.
 
@@ -17,23 +17,25 @@ Another idea that is popular in cryptography is that you *never make your own cr
 
 If you do, make sure that you have a PhD in crypto, get it published, vetted, standardized and wait a long time(years) before using it in production.
 
-#Some Basic Principles
+# Some Basic Principles
 
-##Least privilege
+## Least privilege
 Any piece of code that running on the system should be able to the least amount of damage if it falls apart. For instance, is your script only supposed to write to database, make sure that it doesn't have rights to drop the database.
 
 Even simple things like opening a file in r+w mode when just r would suffice matter. Make sure that the next time you are building something, all its portions are running with the least rights they possibly can.
 
 The point of computer security is to mitigate and reduce the possible threats to a system, and the principle of least privilege is an excellent rule that does exactly that.
 
-##Saving passwords
-Don't store passwords in plaintext, like what youporn did. Don't just hash them with sha1 like what LinkedIn did. Don't encrypt them with AES like what Adobe did.
+## Saving passwords
+Don't store passwords in plaintext, like what youporn did[TODO:Citation]. Don't just hash them with sha1 like what LinkedIn did. Don't encrypt them with AES like what Adobe did.
 
 Just use bcrypt. bcrypt is a slow hashing algorithm that is specifically made to deter attacks such as brute-forcing and rainbow tables. It incorporates a salt and a cost parameter to be future proof.
 
 It is trivial to use in all programming languages, and is widely supported. Don't overthink it and just use bcrypt.
 
-##Don't trust users
+Argon is another hash function that has been vetted and is recommended for password hashing. Do check if it is available in your language of choice easily.
+
+## Don't trust users
 While its true that not all users are going to attack your system., it only takes one determined hacker to screw things up. Consider all user input to be tainted. The location based with that you were thinking about can be hacked by simply spoofing the GPS. The user's about me field is not always going to be text. And the hidden userid field in your HTML needs to be validated as well.
 
 This can be understood especially well if you have ever worked on a multiplayer game. Game Developers always have the choice of making dumb clients where all computations are done on servers, or intelligent clients where the client can compute renders by itself based on its own information and that provided by the server.
@@ -54,7 +56,7 @@ Capture The Flag (or CTF) contests are the elite playgrounds of hackers around t
 
 TODO: Write some more
 
-### Get certification
+### Get certifications
 
 This is a somewhat controversial topic, but there are a few certification courses that are of actual value (in both credibility and knowledge gained) in the industry. A few such courses are:
 
@@ -64,7 +66,8 @@ TODO: Add list
 
 Hundreds of exploits and vulnerabilities are announced every week. These include vulnerabilies in softwares that you use daily: Windows, Twitter, Facebook, Chrome, Firefox and almost everything else.
 
-Platforms such has hackerone and bugcrowd have made reporting security bugs very easy these days. This has also made them a very good medium for accessing recently announced reports. Follow these, and other mediums and stay updated on the new vulnerabilities that are announced daily.
+Platforms such has HackerOne and BugCrowd have made reporting security bugs very easy these days. This has also made them a very good medium for accessing recently announced reports. Follow these, and other mediums and stay updated on the new vulnerabilities that are announced daily. There are also a lot of announce-only mailing lists that
+specifically announce new CVEs and vulnerabilities.
 
 ### Learn the tools
 
@@ -74,3 +77,18 @@ An automated tool can often exploit a vulnerability far more easily and faster t
 
 Note that just knowing how to use the tools is not enough. That will make you a script-kiddie (a term used to denote wannabe hackers who only know how to hack using certain tools). Understanding the concepts behind it, and having the ability to write your own exploits is what makes you a real hacker.
 
+## Attempt Bug Bounties
+
+Maybe companies (including Google, Facebook) offer Bug Bounties for discovering and responsibly disclosing security exploits in their system. These bounties take the form of swag (T-shirts!) and/or monetary reward. If you decide to go hunt for security issues, here are a few do's and dont's:
+
+1. Do ensure you have read the guidelines and understand the scope. Do not overreach beyond what is reasonably expected.
+2. Do not report trivial mis-configuration bugs. Google, for eg maintains a list of "nonvulns" (TODO: add link) that is highly informative.
+3. Do not run a vulnerability scanner and report the findings as bugs. Take time to craft a report, and understand what the tool does instead.
+
+A few websites: hackerone, bugcrowd etc
+
+## Further Resources
+
+- Links to conferences
+- Links to books and recommended readings
+- Discuss career choices, crypto, tool development, etc?

@@ -40,7 +40,6 @@ For eg, to make the same POST request would require you to either do the followi
 
 Using a cli gives you access to an arsenal of tools such as `curl`, which can be used to do a lot of things.
 
-
 ##Shell Basics
 
 The two most powerful concepts in using shells are pipes and streams.

@@ -8,7 +8,7 @@
 * [Installing Software](setup.md)
 * [Test Driven Development](tdd.md)
 * [HTTP, REST and APIs](http.md)
-* [System Orchestration](sysops.md)
+* [System Orchestration](devops.md)
 * [Editors and IDEs](editors.md)
 * [Build Tools](build.md)
 * [Debugging](debug.md)
